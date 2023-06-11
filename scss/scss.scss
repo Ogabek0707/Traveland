@@ -1,0 +1,856 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Gelasio:wght@500&family=Libre+Franklin&family=Montserrat&family=Poppins&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Gelasio:wght@500&family=Libre+Franklin&family=Montserrat&family=Poppins&family=Roboto&display=swap');
+.body{
+    background: url(/images/Rectangle\ 31\ \(1\).png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin: 0;
+    height: 900px;
+    .header{
+       display: flex;
+       justify-content: center; 
+       position: relative;
+       top: 42px;
+       .trav{
+            position: absolute;
+            left: 150px;
+            h4{
+                font-family: 'Ribeye';
+                font-weight: 400;
+                font-size: 24px;
+                letter-spacing: 0.06em;
+                color: #FFFFFF;        
+            }
+       }
+       .navigation{
+        margin-left: 200px;
+        position: absolute;
+        top: -10px;
+            a{
+                text-decoration: none;
+                margin-left: 50px;
+                font-family: 'Roboto';
+                font-weight: 500;
+                font-size: 18px;
+                color: #FFFFFF;
+                button{
+                    font-family: 'Roboto';
+                    font-weight: 400;
+                    font-size: 16px;
+                    border: none;
+                    color: #FFFFFF; 
+                    background: #C9453B;
+                    border-radius: 5px;     
+                    padding: 14px 35px 13px 36px; 
+                    margin-left: 122px;
+                }
+            }
+       }
+    }
+    .you{
+        margin-left: 150px;
+        margin-top: 286px;
+        h1{
+            font-family: 'Gelasio';
+            font-weight: 700;
+            font-size: 65px;
+            color: #FFFFFF;
+            max-width: 804px;
+        }
+        p{
+            font-family: 'Roboto';
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 160%;
+            color: #FFFFFF;
+            opacity: 0.6;
+            max-width: 458px;      
+            margin-top: 30px;
+        }
+        button{
+            font-family: 'Roboto';
+            font-weight: 400;
+            font-size: 16px;
+            border: none;
+            color: #FFFFFF; 
+            background: #C9453B;
+            border-radius: 5px;     
+            padding: 18px 45px 17px 46px;
+            margin-top: 30px; 
+        }
+    }
+}
+
+
+.body2{
+    .header{
+        margin-top: 140px;
+        display: flex;
+        justify-content: center;
+        h1{
+            font-family: 'Gelasio';
+            font-weight: 500;
+            font-size: 43px;
+            line-height: 140%;       
+        }
+            p{
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 160%;
+                color: #000000;
+                opacity: 0.6;
+                max-width: 735px; 
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+    }
+    .you{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 31px;
+        margin-top: 50px;
+        .head{
+            max-width: 360px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            img{
+                max-width: 360px;
+            }
+            h4{
+                font-family: 'Gelasio';
+                font-weight: 500;
+                font-size: 24px;
+                text-align: center;
+                margin-top: 35px;
+                margin-bottom: 10px;
+            }
+            p{
+                font-family: 'Roboto';
+                font-weight: 400;
+                font-size: 18px;
+                text-align: center;
+                opacity: 0.6;
+                margin-bottom: 33px;
+                max-width: 306px;
+            }
+        }
+        .head2{
+            max-width: 360px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.08);
+            h4{
+                font-family: 'Gelasio';
+                font-weight: 500;
+                font-size: 24px;
+                text-align: center;
+                margin-top: 35px;
+                margin-bottom: 10px;
+            }
+            p{
+                font-family: 'Roboto';
+                font-weight: 400;
+                font-size: 18px;
+                text-align: center;
+                opacity: 0.6;
+                margin-bottom: 33px;
+                max-width: 306px;
+            }
+        }
+        .head3{
+            max-width: 360px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            h4{
+                font-family: 'Gelasio';
+                font-weight: 500;
+                font-size: 24px;
+                text-align: center;
+                margin-top: 35px;
+                margin-bottom: 10px;
+            }
+            p{
+                font-family: 'Roboto';
+                font-weight: 400;
+                font-size: 18px;
+                text-align: center;
+                opacity: 0.6;
+                margin-bottom: 33px;
+                max-width: 306px;
+            }
+        }
+    }
+}
+
+
+.body3{
+    margin-top: 140px;
+    .header{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        h1{
+            font-family: 'Gelasio';
+            font-weight: 500;
+            font-size: 43px;
+        }
+        p{
+            max-width: 656px;
+            font-family: 'Roboto';
+            font-weight: 400;
+            font-size: 18px;
+            opacity: 0.6;
+            margin-top: 20px;
+        }
+    }
+    .you{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 60px;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 52px;
+        margin-bottom: 140px;
+        .you{
+            height: 10px;
+            margin-top: 8px;
+            cursor: pointer;
+        }
+        .you2{
+            cursor: pointer;
+        }
+        .you3{
+            cursor: pointer;
+        }
+    }
+}
+
+
+.body4{
+    .header{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        div{
+            h1{
+                font-family: 'Gelasio';
+                font-weight: 500;
+                font-size: 43px;
+                line-height: 140%;                        
+            }
+            p{
+                font-family: 'Roboto';
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 160%;
+                text-align: center;
+                opacity: 0.6;     
+                max-width: 581px;  
+                margin-top: 20px; 
+            }
+        }
+    }
+    .you{
+        margin-top: 56px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 33px;
+        .head{
+            max-width: 554px;
+            img{
+                max-width: 554px;
+            }
+            h4{
+                font-family: 'Gelasio';
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 160%;
+                margin-top: 35px;
+                color: #000000;      
+            }
+            p{
+                font-family: 'Roboto';
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 160%;
+                opacity: 0.6; 
+                max-width: 470px;      
+            }
+            h3{
+                font-family: 'Roboto';
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 150%;  
+                color: #000000;   
+                margin-top: 10px;   
+            }
+        }
+        .head2{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 27px;
+            align-items: center;
+            margin-bottom: 30px;
+            .led{
+                h4{
+                    font-family: 'Gelasio';
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 150%;
+                    color: #000000;        
+                }
+                p{
+                    font-family: 'Roboto';
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 160%;
+                    opacity: 0.6;
+                    max-width: 243px;        
+                }
+                h3{
+                    font-family: 'Roboto';
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 150%;
+                    color: #000000;
+                    opacity: 0.8;        
+                }
+            }
+        }
+        .head3{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 27px;
+            align-items: center;
+            margin-bottom: 30px;
+            .led{
+                h4{
+                    font-family: 'Gelasio';
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 150%;
+                    color: #000000;        
+                }
+                p{
+                    font-family: 'Roboto';
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 160%;
+                    opacity: 0.6;
+                    max-width: 243px;        
+                }
+                h3{
+                    font-family: 'Roboto';
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 150%;
+                    color: #000000;
+                    opacity: 0.8;        
+                }
+            }
+        }
+        .head4{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 27px;
+            align-items: center;
+            .led{
+                h4{
+                    font-family: 'Gelasio';
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 150%;
+                    color: #000000;        
+                }
+                p{
+                    font-family: 'Roboto';
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 160%;
+                    opacity: 0.6;
+                    max-width: 243px;        
+                }
+                h3{
+                    font-family: 'Roboto';
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 150%;
+                    color: #000000;
+                    opacity: 0.8;        
+                }
+            }
+        }
+    }
+}
+
+
+.body5{
+    margin-top: 140px;
+    background: rgba(38, 148, 153, 0.04);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 107px;
+    .you{
+        margin-top: 70px;
+        margin-bottom: 78px;
+        h2{
+            font-family: 'Ribeye';
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 150%;
+        }
+        h3{
+            font-family: 'Roboto';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 160%; 
+            margin-top: 40px;        
+        }
+        h4{
+            font-family: 'Roboto';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 160%; 
+            margin-top: 10px;       
+        }
+        img{
+            margin-top: 20px;
+        }
+    }
+    .you2{
+        margin-top: 70px;
+        h1{
+            font-family: 'Roboto';
+            font-size: 16px;
+            font-weight: 500;       
+        }
+        h2{
+            font-family: 'Roboto';
+            font-size: 16px;
+            font-weight: 500;  
+            margin-top: 20px;     
+        }
+        h3{
+            font-family: 'Roboto';
+            font-size: 16px;
+            font-weight: 500; 
+            margin-top: 20px;     
+        }
+        h4{
+            font-family: 'Roboto';
+            font-size: 16px;
+            font-weight: 500;
+            margin-top: 20px;     
+        }
+        h5{
+            font-family: 'Roboto';
+            font-size: 16px;
+            font-weight: 500;    
+            margin-top: 20px;     
+        }
+    }
+    .you3{
+        margin-top: 70px;
+        margin-bottom: 78px; 
+        h1{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;        
+        }
+        div{
+            margin-top: 42px; 
+            input{
+                max-width: 195px; 
+                padding: 10px 0 10px 20px; 
+                font-family: 'Roboto';
+                font-weight: 400;
+                font-size: 16px;
+                color: #000000; 
+                outline: none;
+                border: 1px solid #8a8a8a;
+                box-shadow: 0px 0px 10px 10px rgba(51, 51, 51, 0.15);
+                border-radius: 5px;    
+            }
+            button{
+                background: #C9453B;
+                border-radius: 5px;   
+                border: none;
+                font-family: 'Roboto';
+                font-weight: 400;
+                font-size: 16px;
+                color: #FFFFFF; 
+                padding: 10px 32px;
+                margin-left: 35px;        
+            }
+        }
+    }
+}
+
+
+@media (max-width: 447px) {
+    .body{
+        .header{
+            flex-direction: column;
+            .trav{
+                left: 5px;
+            }
+            .navigation{
+                display: none;
+            }
+        }
+        .you{
+            margin-left: 5px;
+            margin-top: 100px;
+            h1{
+                font-size: 30px;
+            }
+        }
+    }
+
+    .body2{
+        margin-left: 5px;
+        .header{
+            margin-top: 40px;
+        }
+        .you{
+            width: 100%;
+            .head{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+            .head2{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+            .head3{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .body3{
+        .you{
+            width: 100%;
+            .head{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        footer{
+            display: none;
+        }
+        margin-bottom: 30px;
+    }
+    .body4{
+        .you{
+            .head{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+            .head2{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+            .head3{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+            .head4{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .body5{
+        .you3{
+            div{
+                button{
+                    margin-left: 0px;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 447px) and (max-width: 769px) {
+    .body{
+        .header{
+            .trav{
+                left: 50px;
+                margin-left: 50px;
+            }
+            .navigation{
+                display: none;
+            }
+        }
+        .you{
+            margin-top: 200px;
+            margin-left: 50px;
+            text-align: center;
+            h1{
+                font-size: 40px;
+            }
+        }
+    }
+
+    .body2{
+        .header{
+            margin-top: 40px;
+            div{
+                text-align: center;
+            }
+        }
+        .you{
+            width: 100%;
+            .head{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+            .head2{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+            .head3{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .body3{
+        .you{
+
+        }
+        footer{
+            display: none;
+        }
+        margin-bottom: 30px;
+    }
+    .body4{
+        .you{
+            .head{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+            .head2{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+            .head3{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+            .head4{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .body5{
+        gap:  50px;
+        .you{
+            margin-bottom: 0px;
+        }
+        .you3{
+            margin-top: 20px;
+        }
+    }
+}
+@media (min-width: 769px) and (max-width: 990px) {
+    .body{
+        .header{
+            .trav{
+                left: 50px;
+            }
+            .navigation{
+                top: 2px;
+                button{
+                    display: none;
+                }
+            }
+        }
+        .you{
+            margin-top: 200px;
+            h1{
+                font-size: 50px;
+            }
+        }
+    }
+
+    .body2{
+        .header{
+            margin-top: 40px;   
+        }
+        .you{
+            width: 100%;
+            .head{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+            .head2{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+            .head3{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .body3{
+        .you{
+
+        }
+        footer{
+            display: none;
+        }
+        margin-bottom: 30px;
+    }
+    .body4{
+        .you{
+            .head{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+            .head2{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+            .head3{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+            .head4{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .body5{
+        gap:  50px;
+    }
+}
+@media (min-width: 990px) and (max-width: 1200px) {
+    .body{
+        .header{
+            .navigation{
+                top: 2px;
+                margin-left: 350px;
+                button{
+                    margin-top: 60px;
+                    margin-left: 300px;
+                }
+            }
+        }
+    }
+    .body3{
+        footer{
+            display: none;
+        }
+        .you{
+            .head{
+                margin-top: 50px;
+            }
+        }
+        margin-bottom: 50px;
+    }
+    .body4{
+        .you{
+            .head{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+            .head2{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+            .head3{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+            .head4{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .body5{
+        .you3{
+            margin-top: 20px;
+        }
+    }
+}
