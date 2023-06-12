@@ -452,18 +452,44 @@
 }
 .body5 .you3 {
   margin-top: 70px;
-  margin-bottom: 78px;
 }
 .body5 .you3 h1 {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+}
+.body5 .you3 h2 {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.body5 .you3 h3 {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.body5 .you3 h4 {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.body5 .you4 {
+  margin-top: 70px;
+  margin-bottom: 78px;
+}
+.body5 .you4 h1 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
 }
-.body5 .you3 div {
+.body5 .you4 div {
   margin-top: 42px;
 }
-.body5 .you3 div input {
+.body5 .you4 div input {
   max-width: 195px;
   padding: 10px 0 10px 20px;
   font-family: "Roboto";
@@ -475,7 +501,7 @@
   box-shadow: 0px 0px 10px 10px rgba(51, 51, 51, 0.15);
   border-radius: 5px;
 }
-.body5 .you3 div button {
+.body5 .you4 div button {
   background: #C9453B;
   border-radius: 5px;
   border: none;
@@ -534,20 +560,28 @@
   .body3 {
     margin-bottom: 30px;
   }
+  .body3 .header {
+    width: 90%;
+  }
   .body3 .you {
-    width: 100%;
+    width: 90%;
   }
   .body3 .you .head {
-    width: 100%;
+    width: 90%;
   }
   .body3 .you .head img {
-    width: 100%;
+    width: 90%;
   }
   .body3 footer {
     display: none;
   }
+  .body4 .header {
+    width: 90%;
+    text-align: center;
+    margin-left: 10px;
+  }
   .body4 .you .head {
-    width: 100%;
+    width: 90%;
   }
   .body4 .you .head img {
     width: 100%;
@@ -570,7 +604,18 @@
   .body4 .you .head4 img {
     width: 100%;
   }
-  .body5 .you3 div button {
+  .body5 {
+    margin: 0;
+    gap: 50px;
+  }
+  .body5 .you3 {
+    margin-top: -30px;
+  }
+  .body5 .you4 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .body5 .you4 div button {
     margin-left: 0px;
   }
 }
@@ -623,8 +668,13 @@
   .body3 footer {
     display: none;
   }
+  .body4 .header {
+    width: 90%;
+    text-align: center;
+    margin-left: 10px;
+  }
   .body4 .you .head {
-    width: 100%;
+    width: 90%;
   }
   .body4 .you .head img {
     width: 100%;
@@ -652,6 +702,7 @@
   }
   .body5 .you {
     margin-bottom: 0px;
+    margin-left: 20px;
   }
   .body5 .you3 {
     margin-top: 20px;
@@ -774,6 +825,9 @@
     width: 100%;
   }
   .body5 .you3 {
-    margin-top: 20px;
+    margin-top: 70px;
+  }
+  .body5 .you4 {
+    margin-top: -30px;
   }
 }/*# sourceMappingURL=scss.css.map */
